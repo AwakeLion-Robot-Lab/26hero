@@ -1,0 +1,16 @@
+>>> cc
+
+".\PROTOCOL\data_packet.c", line 13: Warning:  #177-D: function "get_dma_memory_msg" was declared but never referenced
+  static void get_dma_memory_msg(DMA_Stream_TypeDef *dma_stream, uint8_t *mem_id, uint16_t *remain_cnt)
+              ^
+".\PROTOCOL\data_packet.c", line 256: Warning:  #177-D: function "usart_send_data" was declared but never referenced
+  static void usart_send_data(USART_TypeDef* USARTx,uint8_t *pData, uint16_t Size)
+              ^
+.\PROTOCOL\data_packet.c: 2 warnings, 0 errors
+
+>>> ld
+
+Fatal error: L6031U: Could not open scatter description file C:/Users/33055/Documents/GitHub/2025-control-group-hero/Hero_Chassis_C_Board/OBJ/engineering.sct: No such file or directory
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.

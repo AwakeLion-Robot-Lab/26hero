@@ -1,0 +1,112 @@
+[2026-01-31 15:33:21]	[info] incremental build: 99 source files changed
+These source files will be recompiled
+---
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BMI088\algorithm\AHRS_middleware.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BMI088\devices\BMI088Middleware.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BMI088\devices\BMI088driver.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BSP_CONF\bsp_can.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BSP_CONF\bsp_dwt.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BSP_CONF\bsp_flash.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BSP_CONF\bsp_iwdg.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\BSP_CONF\bsp_usb.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\CORE\startup_stm32f407xx.s': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\fuzzy_pid.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\keyboard.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\ladrc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\pid.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\power_control.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\ramp.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FUNTION\remote_ctrl.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\misc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_adc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_can.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_cec.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_crc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_cryp.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_cryp_aes.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_cryp_des.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_cryp_tdes.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_dac.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_dbgmcu.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_dcmi.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_dma.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_dma2d.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_exti.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_flash.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_flash_ramfunc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_fmpi2c.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_gpio.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_hash.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_hash_md5.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_hash_sha1.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_i2c.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_iwdg.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_ltdc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_pwr.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_qspi.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_rcc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_rng.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_rtc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_sai.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_sdio.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_spdifrx.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_spi.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_syscfg.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_tim.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_usart.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FWLIB\src\stm32f4xx_wwdg.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\croutine.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\event_groups.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\list.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\portable\MemMang\heap_4.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\portable\RVDS\ARM_CM4F\port.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\queue.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\tasks.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\FreeRTOS\timers.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\PROTOCOL\data_fifo.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\PROTOCOL\data_packet.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\PROTOCOL\judge_rx_data.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\PROTOCOL\judge_tx_data.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\PROTOCOL\protocol.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\chassis_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\comm_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\detect_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\gimbal_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\imu_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\info_get_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\judge_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\modeswitch_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\TASK\shoot_task.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_Device_Library\Core\src\usbd_core.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_Device_Library\Core\src\usbd_req.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_OTG_Driver\src\usb_core.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_OTG_Driver\src\usb_dcd.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USB_LIB\STM32_USB_OTG_Driver\src\usb_dcd_int.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\STM32_TIM_BASE.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\main.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\stm32f4xx_it.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\system_stm32f4xx.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\usbd_desc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER\usbd_usr.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\can.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\delay.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\dma.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\gpio.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\rc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\spi.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\st_usb_cdc.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\start_tack.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\tim.c': object (.o) file not exist
+'d:\RM\RM_Code\2025-control-group-hero_ypw\Hero_Chassis_C_Board\USER_CONF\usart.c': object (.o) file not exist
+
+[2026-01-31 15:33:24]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Fatal error: L6031U: Could not open scatter description file C:/Users/33055/Documents/GitHub/2025-control-group-hero/Hero_Chassis_C_Board/OBJ/engineering.sct: No such file or directory
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+

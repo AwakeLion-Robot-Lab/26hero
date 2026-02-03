@@ -1,0 +1,6 @@
+tool: AC5
+fileName: 'Hero_Chassis_C_board.map'
+elfName: 'Hero_Chassis_C_board.axf'
+compilerName: 'ARM Compiler'
+compilerFullName: 'Component: ARM Compiler 5.06 update 1 (build 61)'
+compilerPath: 'D:\32\ARM\ARMCC\bin\armcc.exe'
