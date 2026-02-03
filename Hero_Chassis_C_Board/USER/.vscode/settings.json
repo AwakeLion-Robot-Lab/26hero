@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "keyboard.h": "c",
+        "judge_tx_data.h": "c",
+        "judge_rx_data.h": "c",
+        "shoot_task.h": "c"
+    }
+}

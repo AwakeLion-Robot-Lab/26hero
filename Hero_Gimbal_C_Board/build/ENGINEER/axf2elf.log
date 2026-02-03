@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\33055\AppData\Local\Temp\\Hero_Gimbal_C_board_00acypYC.bin" "c:\Users\33055\Documents\GitHub\2025-control-group-hero\Hero_Gimbal_C_Board\build\ENGINEER\Hero_Gimbal_C_board.axf" "c:\Users\33055\Documents\GitHub\2025-control-group-hero\Hero_Gimbal_C_Board\build\ENGINEER\Hero_Gimbal_C_board.elf"
+
+arm-none-eabi-objcopy: c:\Users\33055\Documents\GitHub\2025-control-group-hero\Hero_Gimbal_C_Board\build\ENGINEER\Hero_Gimbal_C_board.elf: warning: allocated section `RW_IRAM1' not in segment
+

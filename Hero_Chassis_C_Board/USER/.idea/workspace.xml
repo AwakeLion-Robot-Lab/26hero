@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d920388-be3e-44d7-92de-022eb68bdce2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll" beforeDir="false" afterPath="$PROJECT_DIR$/2025iwdog_roll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/data_fifo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/data_fifo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/data_packet.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/data_packet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/judge_rx_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/judge_rx_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/judge_tx_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/judge_tx_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/pc_rx_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/pc_rx_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/pc_tx_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/pc_tx_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/protocol.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/PROTOCOL/protocol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/chassis_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/chassis_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/comm_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/comm_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/detect_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/detect_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/gimbal_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/gimbal_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/imu_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/imu_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/info_get_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/info_get_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/modeswitch_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/modeswitch_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/pc_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/pc_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/shoot_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/TASK/shoot_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/audio/inc/usbd_audio_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/audio/inc/usbd_audio_out_if.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/audio/src/usbd_audio_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/audio/src/usbd_audio_out_if.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_core_loopback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_if_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core_loopback.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/customhid/inc/usbd_customhid_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/customhid/src/usbd_customhid_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/inc/usbd_dfu_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/inc/usbd_dfu_mal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/inc/usbd_flash_if.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/inc/usbd_mem_if_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/inc/usbd_otp_if.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/src/usbd_dfu_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/src/usbd_dfu_mal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/src/usbd_flash_if.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/src/usbd_mem_if_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/dfu/src/usbd_otp_if.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid/inc/usbd_hid_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid/src/usbd_hid_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid_cdc_wrapper/inc/usbd_hid_cdc_wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid_cdc_wrapper/src/usbd_hid_cdc_wrapper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid_msc_wrapper/inc/usbd_msc_hid_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/hid_msc_wrapper/src/usbd_msc_hid_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_bot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_scsi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/src/usbd_msc_bot.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/src/usbd_msc_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/src/usbd_msc_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/src/usbd_msc_scsi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Class/msc/src/usbd_storage_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_conf_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_def.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_req.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/inc/usbd_usr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/src/usbd_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/src/usbd_ioreq.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_Device_Library/Core/src/usbd_req.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_bsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_conf_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_dcd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_dcd_int.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_defines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_hcd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_hcd_int.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_otg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/inc/usb_regs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_bsp_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_dcd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_dcd_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_hcd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_hcd_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USB_LIB/STM32_USB_OTG_Driver/src/usb_otg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/.vscode/keil-assistant.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/.vscode/uv4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/.vscode/uv4.log.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/DebugConfig/ENGINEER_STM32F407IGHx.dbgconf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/EventRecorderStub.scvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/JLinkSettings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/Listings/startup_stm32f407xx.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/STM32_TIM_BASE.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/STM32_TIM_BASE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/arm_cortexM4lf_math.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.22063" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.32909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.ACER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.Heisenberg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.fantasy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvguix.尐" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvoptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/engineering.uvprojx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/include/arm_common_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/include/arm_const_structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/include/arm_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/include/core_sc000.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/include/core_sc300.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/stm32f4xx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/stm32f4xx_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/stm32f4xx_it.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/stm32f4xx_it.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/system_stm32f4xx.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/system_stm32f4xx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/usb_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/usbd_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/usbd_desc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/usbd_desc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER/usbd_usr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/can.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/can.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/delay.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/delay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/dma.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/gpio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/gpio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/rc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/rc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/spi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/st_usb_cdc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/st_usb_cdc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/start_tack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/start_task.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/sys_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/tim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/tim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/usart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025iwdog_roll/Hero_Gimbal_C_Board/USER_CONF/usart.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2025iwdog_roll" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2utzlBs44rBJu6YO0VAyYNVF9K4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "CPPToolchains",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d920388-be3e-44d7-92de-022eb68bdce2" name="Changes" comment="" />
+      <created>1743082807473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743082807473</updated>
+      <workItem from="1743082809047" duration="1437000" />
+      <workItem from="1743085182270" duration="2512000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
