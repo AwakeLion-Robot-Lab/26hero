@@ -25,8 +25,8 @@
 
 UBaseType_t chassis_stack_surplus;
 
-uint16_t Start_Angle[2] = {14,334};//狗腿水平角度,车头朝自己左1右0
-uint16_t UP_Leg_Angle[2] = {350,354};//狗腿抬腿角度
+uint16_t Start_Angle[2] = {59,96};//狗腿水平角度,车右0左1
+uint16_t UP_Leg_Angle[2] = {88,66};//狗腿抬腿角度
 
 uint8_t Up_Leg_Flag = 0;//伸腿标志位 1伸腿 0收腿
 uint8_t rc_iw_ClearFlag;//防止拨轮标志位长时间置1，反复伸缩腿
@@ -63,7 +63,7 @@ float power_new_pid[3] = {0.0f, 0.3f, 0.0f};        // 新功率算法PID
 float chassis_power_buffer_pid[3] = {1, 0, 0};     	// 缓冲能量控制PID
 float chassis_vw_pid[3] = {0.0f, 0.5f, 0.0f};      	// 小陀螺转速控制PID
 float chassis_yaw_cali_pid[3] = {0.0f, 0.0f, 0.0f}; // 底盘跟随YAWPID
-float chassis_joint_pid[2][6] = {{1.0f, 0.0f, 0.0f,   200.0f, 0.0f, 0.0f},{1.0f, 0.0f, 0.0f,   200.0f, 0.0f, 0.0f}}; // 狗腿PID
+float chassis_joint_pid[2][6] = {{40.0f, 0.12f, 0.0f,   4.0f, 0.0f, 0.01f},{40.0f, 0.12f, 0.0f,   4.0f, 0.0f, 0.01f}}; // 狗腿PID
 
 // 四轮电机速度环PID参数
 float chassis_spd_pid[4][3] = {
@@ -97,10 +97,10 @@ void chassis_task(void *parm)
 				PID_Struct_Init(&pid_chassis_power_buffer, chassis_power_buffer_pid[0], chassis_power_buffer_pid[1], chassis_power_buffer_pid[2], 50, 10, DONE);
 				PID_Struct_Init(&pid_chassis_vw, chassis_vw_pid[0], chassis_vw_pid[1], chassis_vw_pid[2], 570, 570, DONE);
 				
-				//PID_Struct_Init(&pid_joint_spd_r, chassis_joint_pid[joint_RIGHT][0], chassis_joint_pid[joint_RIGHT][1], chassis_joint_pid[joint_RIGHT][2], 50, 10, DONE);
-				//PID_Struct_Init(&pid_joint_spd_l, chassis_joint_pid[joint_LEFT][0], chassis_joint_pid[joint_LEFT][1], chassis_joint_pid[joint_LEFT][2], 570, 570, DONE);
+				PID_Struct_Init(&pid_joint_spd_r, chassis_joint_pid[joint_RIGHT][0], chassis_joint_pid[joint_RIGHT][1], chassis_joint_pid[joint_RIGHT][2], 5000, 300, DONE);
+				PID_Struct_Init(&pid_joint_spd_l, chassis_joint_pid[joint_LEFT][0], chassis_joint_pid[joint_LEFT][1], chassis_joint_pid[joint_LEFT][2], 5000, 300, DONE);
 				PID_Struct_Init(&pid_joint_ang_r, chassis_joint_pid[joint_RIGHT][3], chassis_joint_pid[joint_RIGHT][4], chassis_joint_pid[joint_RIGHT][5], 5000, 10, DONE);
-				PID_Struct_Init(&pid_joint_ang_l, chassis_joint_pid[joint_LEFT][3], chassis_joint_pid[joint_LEFT][4], chassis_joint_pid[joint_LEFT][5], 5000, 570, DONE);
+				PID_Struct_Init(&pid_joint_ang_l, chassis_joint_pid[joint_LEFT][3], chassis_joint_pid[joint_LEFT][4], chassis_joint_pid[joint_LEFT][5], 5000, 10, DONE);
 				//chassis_pitch_fdb = Get_imu_Pitch();
 				/*底盘vx,vy平移的pid*/
 				for (int i = 0; i < 4; i++)
@@ -179,10 +179,10 @@ void chassis_task(void *parm)
 						temporary_joint_ang_ref[joint_RIGHT] = chassis_joint[joint_RIGHT].joint_ang_ref;
 					}
 					
-						//chassis_joint[joint_LEFT]. joint_spd_ref = pid_calc(&pid_joint_ang_l,chassis_pitch_fdb,chassis_pitch_ref);
-						//chassis_joint[joint_RIGHT].joint_spd_ref = pid_calc(&pid_joint_ang_r,chassis_pitch_fdb,chassis_pitch_ref);
-						chassis_joint[joint_LEFT].current = pid_calc(&pid_joint_ang_l,chassis_joint[joint_LEFT].joint_ang_fdb,temporary_joint_ang_ref[joint_LEFT]);//继续写速度环解算
-						chassis_joint[joint_RIGHT].current = pid_calc(&pid_joint_ang_r,chassis_joint[joint_RIGHT].joint_ang_fdb,temporary_joint_ang_ref[joint_RIGHT]);
+						chassis_joint[joint_LEFT]. joint_spd_ref = pid_calc(&pid_joint_spd_l,chassis_joint[joint_LEFT].joint_ang_fdb,temporary_joint_ang_ref[joint_LEFT]);
+						chassis_joint[joint_RIGHT].joint_spd_ref = pid_calc(&pid_joint_spd_r,chassis_joint[joint_RIGHT].joint_ang_fdb,temporary_joint_ang_ref[joint_RIGHT]);
+						chassis_joint[joint_LEFT].current = pid_calc(&pid_joint_ang_l,chassis_joint[joint_LEFT].joint_spd_fdb,chassis_joint[joint_LEFT].joint_spd_ref);//继续写速度环解算
+						chassis_joint[joint_RIGHT].current = pid_calc(&pid_joint_ang_r,chassis_joint[joint_RIGHT].joint_spd_fdb,chassis_joint[joint_RIGHT].joint_spd_ref);
 						chassis.ob_total_power = Chassis_Power_Control(&chassis); // 功率控制
 
 					if (!chassis_is_controllable())

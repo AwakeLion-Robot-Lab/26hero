@@ -38,7 +38,7 @@ typedef struct
 
 }chassis_joint_t;
 
-enum Dog_joint//车子正对自己为准
+enum Dog_joint//车子为准
 {
 	 joint_RIGHT = 0,
 	 joint_LEFT = 1
