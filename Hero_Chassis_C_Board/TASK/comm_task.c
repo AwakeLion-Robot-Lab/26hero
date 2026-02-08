@@ -38,8 +38,8 @@ void can_msg_send_task(void *parm)
 
 			if (Signal & CHASSIS_MOTOR_MSG_SIGNAL) // 发送底盘电流
 			{
-				Motor10010B_Current(glb_cur.chassis_joint_cur[joint_RIGHT],glb_cur.chassis_joint_cur[joint_LEFT],0,0);
-				send_chassis_cur(glb_cur.chassis_cur[0], glb_cur.chassis_cur[1], glb_cur.chassis_cur[2], glb_cur.chassis_cur[3]); 																										  //				send_chassis_cur(0,0,0,0);
+				//Motor10010B_Current(glb_cur.chassis_joint_cur[joint_RIGHT],glb_cur.chassis_joint_cur[joint_LEFT],0,0);
+				//send_chassis_cur(glb_cur.chassis_cur[0], glb_cur.chassis_cur[1], glb_cur.chassis_cur[2], glb_cur.chassis_cur[3]); 																										  //				send_chassis_cur(0,0,0,0);
 			}
 
 			if (Signal & SHOT_MOTOR_MSG_SIGNAL) // 发送拨盘电机
@@ -48,9 +48,9 @@ void can_msg_send_task(void *parm)
 			}
 			if (chassis_mode == CHASSIS_RELEASE)
 			{
-				Motor10010B_Current(glb_cur.chassis_joint_cur[joint_RIGHT],glb_cur.chassis_joint_cur[joint_LEFT],0,0);
+				//Motor10010B_Current(glb_cur.chassis_joint_cur[joint_RIGHT],glb_cur.chassis_joint_cur[joint_LEFT],0,0);
 
-				send_chassis_cur(glb_cur.chassis_cur[0], glb_cur.chassis_cur[1], glb_cur.chassis_cur[2], glb_cur.chassis_cur[3]); //!!!
+				//send_chassis_cur(glb_cur.chassis_cur[0], glb_cur.chassis_cur[1], glb_cur.chassis_cur[2], glb_cur.chassis_cur[3]); //!!!
 			}
 
 			if (Signal & MODE_SWITCH_MSG_SIGNAL) // 发送电流全为0

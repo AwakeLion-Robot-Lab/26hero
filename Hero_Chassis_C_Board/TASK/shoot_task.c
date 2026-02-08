@@ -104,7 +104,7 @@ static void shoot_bullet_handler(void)
 	else if (shoot_ready == 0 && HAL_GetTick() - delay_loader_time > 500)
 	{
 		loader_angle_flag = 0;
-		loader.spd_ref = -900;
+		loader.spd_ref = -500;
 	}
 	else if (shoot_ready == 1 && last_shoot_ready == 0)
 	{
